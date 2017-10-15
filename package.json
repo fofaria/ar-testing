@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,13 @@
     "url": "https://github.com/fofaria/ar-testing/issues"
   },
   "homepage": "https://github.com/fofaria/ar-testing#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "aframe": "^0.7.0",
+    "ar.js": "^1.4.10",
+    "three": "^0.87.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
 }
